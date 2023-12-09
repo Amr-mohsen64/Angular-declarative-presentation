@@ -1,10 +1,10 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 
 import { Subscription } from 'rxjs';
-import { ProductCategory } from '../product-categories/product-category';
+import { ProductCategory } from '../../product-categories/product-category';
 
-import { Product } from './product';
-import { ProductService } from './product.service';
+import { Product } from '../product';
+import { ProductService } from '../product.service';
 
 @Component({
   templateUrl: './product-list.component.html',
